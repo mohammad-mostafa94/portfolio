@@ -1,5 +1,5 @@
 import React from 'react';
-import './carousel.css'
+import './Banner.css'
 import Particles from 'react-particles-js';
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Typing from "react-typing-animation";
