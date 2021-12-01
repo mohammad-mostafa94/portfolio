@@ -11,7 +11,7 @@ import stackOevrflow from './stack-overflow.png';
 
 const Banner = () => {
   return (
-    <div id="home" data-aos="fade-rights" className='color-dark '>
+    <div id="home" className='color-dark '>
       <Container>
         <Row>
           <Col md={6}>
