@@ -1,5 +1,5 @@
 import React from 'react';
-// import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
 const MyTitleMessage = styled.h1`
@@ -40,18 +40,18 @@ const TitleMessage = () => {
             {/* This is
           <br /> */}
             <span>
-              {/* <strong>MD.Golam Mostafa</strong> */}
+              <strong>MD.Golam Mostafa</strong>
             </span>
           </div>
           <div className="">
-            {/* <Typewriter
+            <Typewriter
               options={{
-                // strings: ["React Web Developer", "Learning with programming hero",' '],
-                // autoStart: true,
-                // loop: true,
-                // delay: 50
+                strings: [" Web Developer Mohammad Mostafa", "Learning with programming hero", ' '],
+                autoStart: true,
+                loop: true,
+                delay: 50
               }}
-            /> */}
+            />
           </div>
 
         </div>

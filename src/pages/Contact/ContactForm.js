@@ -42,38 +42,35 @@ const Contact = () => {
     })
 
     return (
-        <div id="contact" className="contact-area">
+        <div data-aos="fade-up" id="contact" className="contact-area">
             <div className="container">
-                <div class="section-title">
-                    <h1 className="text-center text-success">GET IN TOUCH</h1>
-                    <div className="br-top"></div>
-                    <div className="br-middle"></div>
-                    <div className="br-bottom"></div>
-                </div>
+                <h1 className="text-center text-success">GET IN TOUCH</h1>
                 <div className="row mt-5">
-                    <div data-aos="fade-right" className="col-md-6">
-                        <form onSubmit={sendEmail}>
-                            <div className="row pt-2 mx-auto">
-                                <div className="col-10 form-group mx-auto">
+                    <div className="col-md-6 col-lg-6">
+                        {/* <div data-aos="fade-right" className="col-md-6 col-lg-6"> */}
+                        <form data-aos="zoom-in-left" onSubmit={sendEmail}>
+                            <div className=" pt-2 mx-auto">
+                                <div className="col-10 col-sm-12 form-group mx-auto">
                                     <input type="text" className="form-control" placeholder="Name" name="name" />
                                 </div>
-                                <div className="col-10 form-group pt-2 mx-auto">
+                                <div className="col-10 col-sm-12 form-group pt-2 mx-auto">
                                     <input type="email" className="form-control" placeholder="Email Address" name="email" />
                                 </div>
-                                <div className="col-10 form-group pt-2 mx-auto">
+                                <div className="col-10 col-sm-12 form-group pt-2 mx-auto">
                                     <input type="text" className="form-control" placeholder="Subject" name="subject" />
                                 </div>
-                                <div className="col-10 form-group pt-2 mx-auto">
+                                <div className="col-10 col-sm-12 form-group pt-2 mx-auto">
                                     <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                                 </div>
-                                <div className="col-10 pt-3 mx-auto">
+                                <div className="col-10 col-sm-12 pt-3 mx-auto">
                                     <input type="submit" className="btn btn-info" value="Send Message"></input>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div data-aos="fade-left" className="col-md-6 contact-info">
-                        <div style={{ color: 'white' }}>
+                    <div className="col-md-6 contact-info">
+                        {/* <div data-aos="fade-left" className="col-md-6 contact-info"> */}
+                        <div data-aos="zoom-in-right" style={{ color: 'white' }}>
                             <h3>Contact Information</h3>
                             <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
                             <div style={{ borderLeft: '2px solid gray', color: 'white' }}>

@@ -30,6 +30,7 @@ const TimeLine = () => {
 
           {/* Project:  Filmy World */}
           <ImageEvent
+            data-aos="flip-down"
             date="Nov-09-2021"
             className="text-center"
             text="Filmy World"
@@ -187,6 +188,7 @@ const TimeLine = () => {
 
           {/* Project: Trip tracker */}
           <ImageEvent
+            data-aos="flip-down"
             date="Oct-31-2021"
             className="text-center"
             text="Trip tracker"
@@ -344,6 +346,7 @@ const TimeLine = () => {
 
           {/* Project: Doctor Portal */}
           <ImageEvent
+            data-aos="flip-down"
             date="Oct-21-2021"
             className="text-center"
             text="Shakhawat Healthcare"

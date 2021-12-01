@@ -17,7 +17,7 @@ const Skills = () => {
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
-            <Card data-aos="fade-right" className="focus mt-2 mb-2">
+            <Card data-aos="zoom-in-up" className="focus mt-2 mb-2">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -36,7 +36,7 @@ const Skills = () => {
           </Col>
 
           {/* Backend */}
-          <Col data-aos="flip-up" md={4}>
+          <Col data-aos="zoom-in-up" md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
@@ -72,7 +72,7 @@ const Skills = () => {
           </Col>
 
           {/* Programming Languages */}
-          <Col data-aos="fade-left" md={4}>
+          <Col data-aos="zoom-in-up" md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>

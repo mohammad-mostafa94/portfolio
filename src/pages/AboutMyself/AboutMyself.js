@@ -9,7 +9,7 @@ import "./AboutMyself.css";
 
 const AboutMyself = () => {
   return (
-    <div data-aos="flip-left"
+    <div data-aos="flip-left" className="container"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000" id="about">
       <br />

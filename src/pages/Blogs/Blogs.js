@@ -1,3 +1,6 @@
+
+
+
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -13,7 +16,8 @@ const Blogs = () => {
             <hr />
             {/* <BlogCards></BlogCards> */}
             <CardDeck >
-                <Card data-aos="fade-right" className="focus mt-2 mb-2">
+                {/* <Card data-aos="fade-right" className="focus mt-2 mb-2"> */}
+                <Card data-aos="flip-left">
                     <Card.Img variant="top" src={javascript} />
                     <Card.Body>
                         <Card.Title>JavaScript trips</Card.Title>
@@ -27,6 +31,7 @@ const Blogs = () => {
                         <small className="text-muted">Last updated 1 month ago</small>
                     </Card.Footer>
                 </Card>
+                {/* <Card data-aos="flip-left"> */}
                 <Card data-aos="flip-left">
                     <Card.Img variant="top" src={javascript2} />
                     <Card.Body>
@@ -40,7 +45,8 @@ const Blogs = () => {
                         <small className="text-muted">Last updated 2 month ago</small>
                     </Card.Footer>
                 </Card>
-                <Card data-aos="fade-left">
+                {/* <Card data-aos="fade-left"> */}
+                <Card data-aos="flip-left">
                     <Card.Img variant="top" src={react} />
                     <Card.Body>
                         <Card.Title>React trips and tricks</Card.Title>
